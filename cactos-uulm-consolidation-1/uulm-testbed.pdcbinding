@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binding:PowerModelBindingRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:binding="http://www.cactosfp7.eu/PhysicalDCModel/Power/Binding/1.0">
+  <powerModelBindings id="_U4MwAJVEEeaxGop97YsJzg" name="computenode02">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_mX3r4JVEEeaxGop97YsJzg" name="minConsumption" value="100.0W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_m6FBEJVEEeaxGop97YsJzg" name="maxConsumption" value="200.0W"/>
+  </powerModelBindings>
+  <powerModelBindings id="_bAuNcJVEEeaxGop97YsJzg" name="computenode05">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_nR32AJVEEeaxGop97YsJzg" name="minConsumption" value="102.40003437714299W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_ntkTgJVEEeaxGop97YsJzg" name="maxConsumption" value="570.4232172837997W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_bUeP4JVEEeaxGop97YsJzg" name="computenode08">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_oGgX8JVEEeaxGop97YsJzg" name="minConsumption" value="71.31860991484552W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_of0P0JVEEeaxGop97YsJzg" name="maxConsumption" value="596.6542838027754W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_bvbtkJVEEeaxGop97YsJzg" name="computenode11">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_o3o58JVEEeaxGop97YsJzg" name="minConsumption" value="102.37283527022649W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_pXISUJVEEeaxGop97YsJzg" name="maxConsumption" value="1090.0344009054465W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_cDeq8JVEEeaxGop97YsJzg" name="computenode12">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_p5IMIJVEEeaxGop97YsJzg" name="minConsumption" value="113.74876791496462W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_qXh_YJVEEeaxGop97YsJzg" name="maxConsumption" value="410.8951081337776W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_cZSi4JVEEeaxGop97YsJzg" name="computenode14">
+    <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
+    <fixedFactorValues id="_qyFNYJVEEeaxGop97YsJzg" name="minConsumption" value="71.25638189588318W">
+      <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_rNCEAJVEEeaxGop97YsJzg" name="maxConsumption" value="589.1901096238387W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_n0evoJVLEea3csqiBVFYaQ" name="computenode11polynomial">
+    <powerModel href="uulm-testbed.pdcspec#_VE8HUJVLEea3csqiBVFYaQ"/>
+    <fixedFactorValues id="_rUAKgJVLEea3csqiBVFYaQ" name="a" value="2053.1125827970727W">
+      <boundFactor href="uulm-testbed.pdcspec#_f71_cJVLEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_sGD5kJVLEea3csqiBVFYaQ" name="b" value="-9333.428554679194W">
+      <boundFactor href="uulm-testbed.pdcspec#_gdFrUJVLEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_s2PZUJVLEea3csqiBVFYaQ" name="c" value="7551.393782066869W">
+      <boundFactor href="uulm-testbed.pdcspec#_g1tmsJVLEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_sej5IJVLEea3csqiBVFYaQ" name="d" value="94.43181068739457W">
+      <boundFactor href="uulm-testbed.pdcspec#_hKkcYJVLEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+  <powerModelBindings id="_6664MJVPEea3csqiBVFYaQ" name="computenode11exponentialinverted">
+    <powerModel href="uulm-testbed.pdcspec#_r7ENsJVPEea3csqiBVFYaQ"/>
+    <fixedFactorValues id="_9dcfUJVPEea3csqiBVFYaQ" name="a" value="1240.6088291491656W">
+      <boundFactor href="uulm-testbed.pdcspec#_1PSLEJVPEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+    <fixedFactorValues id="_91RJcJVPEea3csqiBVFYaQ" name="b" value="99.93080509814465W">
+      <boundFactor href="uulm-testbed.pdcspec#_1p_xIJVPEea3csqiBVFYaQ"/>
+    </fixedFactorValues>
+  </powerModelBindings>
+</binding:PowerModelBindingRepository>
