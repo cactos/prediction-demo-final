@@ -774,49 +774,49 @@
     <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_mhws4SkUEeSuf8LV7cHLgA"/>
   </measuringTypes>
   <measuringPointRepositories id="_dZ8DIJXqEeaSZPlnmNyL0Q">
-    <measuringPoints xsi:type="pcmmeasuringpoint:ResourceEnvironmentMeasuringPoint" stringRepresentation="Resource Environment: Resource Environment for CACTOS Physical Data Centre Model with id: _7cotMZF1Eeaw2NAHQwIpvg." resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#/">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ResourceEnvironmentMeasuringPoint" stringRepresentation="Resource Environment: aName" resourceURIRepresentation="">
       <resourceEnvironment href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#/"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode08" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daL6wJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode08" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daL6wJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode12" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daQMMJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode12" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daQMMJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode08" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh0JXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode08" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh0JXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode02" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNI4ZXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode02" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNI4ZXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="DELAY [0] in ReconfigurationController for CACTOS NetworkInterconnect with ID _dSxrMJXqEeaSZPlnmNyL0Q" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daEmAJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="DELAY [0] in ReconfigurationController for CACTOS NetworkInterconnect with ID _dSxrMJXqEeaSZPlnmNyL0Q" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daEmAJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode14" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNv85XqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode14" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNv85XqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode05" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daGbMZXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode05" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daGbMZXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode11" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daKsoJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode11" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daKsoJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode02" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh1JXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode02" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh1JXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode12" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daO-E5XqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in Rack rack01::Node computenode12" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daO-E5XqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode11" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daLTsZXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode11" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daLTsZXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in ReconfigurationController for CACTOS NetworkInterconnect with ID _dSxrMJXqEeaSZPlnmNyL0Q" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daF0IJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in ReconfigurationController for CACTOS NetworkInterconnect with ID _dSxrMJXqEeaSZPlnmNyL0Q" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daF0IJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode05" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daIQYJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode05" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daIQYJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode14" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daOXAJXqEeaSZPlnmNyL0Q">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [0] in Rack rack01::Node computenode14" resourceURIRepresentation="">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daOXAJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
     <measuringPoints xsi:type="org.palladiosimulator.edp2.models_1:ResourceURIMeasuringPoint" stringRepresentation="computenode05" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/powerinfrastructure.infrastructure#_dbtkwJXqEeaSZPlnmNyL0Q" measuringPoint="computenode05" resourceURI="platform:/resource/org.palladiosimulator.temporary/cactosmodels/powerinfrastructure.infrastructure#_dbtkwJXqEeaSZPlnmNyL0Q"/>
@@ -835,22 +835,22 @@
     <measuringPoints xsi:type="org.palladiosimulator.edp2.models_1:ResourceURIMeasuringPoint" stringRepresentation="GUOD1420000145" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/powerinfrastructure.infrastructure#_dcPwQ5XqEeaSZPlnmNyL0Q" measuringPoint="GUOD1420000145" resourceURI="platform:/resource/org.palladiosimulator.temporary/cactosmodels/powerinfrastructure.infrastructure#_dcPwQ5XqEeaSZPlnmNyL0Q"/>
   </measuringPointRepositories>
   <measuringPointRepositories id="_eMKxUJXqEeaSZPlnmNyL0Q">
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode02" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNI4ZXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode02" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daNI4ZXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode08" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh0JXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode08" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daMh0JXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode14" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daOXAJXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode14" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daOXAJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode12" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daQMMJXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode12" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daQMMJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode11" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daLTsZXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode11" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daLTsZXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
-    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode05" resourceURIRepresentation="platform:/resource/org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daIQYJXqEeaSZPlnmNyL0Q" replicaID="32">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="x86_64 [32] in Rack rack01::Node computenode05" resourceURIRepresentation="" replicaID="32">
       <activeResource href="../../org.palladiosimulator.temporary/cactosmodels/resourceenvironment.resourceenvironment#_daIQYJXqEeaSZPlnmNyL0Q"/>
     </measuringPoints>
   </measuringPointRepositories>
