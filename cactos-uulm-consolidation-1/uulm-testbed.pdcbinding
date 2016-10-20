@@ -5,7 +5,9 @@
     <fixedFactorValues id="_mX3r4JVEEeaxGop97YsJzg" name="minConsumption" value="100.0W">
       <boundFactor href="uulm-testbed.pdcspec#_LCsDcJVEEeaxGop97YsJzg"/>
     </fixedFactorValues>
-    <fixedFactorValues id="_m6FBEJVEEeaxGop97YsJzg" name="maxConsumption" value="200.0W"/>
+    <fixedFactorValues id="_m6FBEJVEEeaxGop97YsJzg" name="maxConsumption" value="200.0W">
+      <boundFactor href="uulm-testbed.pdcspec#_LydTgJVEEeaxGop97YsJzg"/>
+    </fixedFactorValues>
   </powerModelBindings>
   <powerModelBindings id="_bAuNcJVEEeaxGop97YsJzg" name="computenode05">
     <powerModel href="uulm-testbed.pdcspec#_vm1dMJVBEeaxGop97YsJzg"/>
