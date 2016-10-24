@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:LogicalDCModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://www.cactosfp7.eu/LogicalDCModel/Core/1.0" id="_7cuMwJF1Eeaw2NAHQwIpvg" cyclicOptimizationInterval="60.0s">
+  <hypervisors id="_7qm3wJF1Eeaw2NAHQwIpvg" rootVolume="_16hY4JUtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qJkwJF1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <hypervisors id="_7qne0JF1Eeaw2NAHQwIpvg" rootVolume="_16h_8JUtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qbRkpF1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <hypervisors id="_7qne0ZF1Eeaw2NAHQwIpvg" rootVolume="_16h_8ZUtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qb4pZF1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <hypervisors id="_7qne0pF1Eeaw2NAHQwIpvg" rootVolume="_16h_8pUtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qcfsZF1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <hypervisors id="_7qne05F1Eeaw2NAHQwIpvg" rootVolume="_16h_85UtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qcfupF1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <hypervisors id="_7qne1JF1Eeaw2NAHQwIpvg" rootVolume="_16inAJUtEeafL8jDFW7wdQ">
+    <hypervisorType href="uulm-testbed.hypervisor#_7otaUJF1Eeaw2NAHQwIpvg"/>
+    <node href="uulm-testbed.physical#_7qdGx5F1Eeaw2NAHQwIpvg"/>
+  </hypervisors>
+  <volumesAndImages id="_16hY4JUtEeafL8jDFW7wdQ" name="Root Volume of computenode02" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qeU4JF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16h_8JUtEeafL8jDFW7wdQ" name="Root Volume of computenode05" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qh_QpF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16h_8ZUtEeafL8jDFW7wdQ" name="Root Volume of computenode08" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qimUpF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16h_8pUtEeafL8jDFW7wdQ" name="Root Volume of computenode11" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qimVZF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16h_85UtEeafL8jDFW7wdQ" name="Root Volume of computenode12" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qimWJF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+  <volumesAndImages id="_16inAJUtEeafL8jDFW7wdQ" name="Root Volume of computenode14" capacity="8.0bit*1000000000">
+    <storageLocation href="uulm-testbed.physical#_7qjNYZF1Eeaw2NAHQwIpvg"/>
+  </volumesAndImages>
+</core:LogicalDCModel>

@@ -60,10 +60,14 @@ energy.meas <- (integrate(meas.func, 0.0, max.x, subdivisions = 10000))$value
 colors <- rainbow(2)
 
 #emf(file="powerconsumption_datacentre_os2-b.emf", height = 8, width = 12, family = "Calibri", pointsize = 20)
-pdf("powerconsumption_datacentre_uulm.pdf", height = 4, width = 7)
-plot(df, type="n", xlim=c(0, max.x), ylim=c(min.y, max.y), xlab="Experiment time (s)", ylab="Power Consumption")
+png(filename = "powerconsumption_datacentre_uulm.png",
+    width = 1280, height = 720, units = "px", pointsize = 12,
+    bg = "white")
 
-lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[2])
-lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[1])  
-legend(max.x - 7500, max.y, c("Predicted", "Measured"), lty=c(1,1), lwd=c(2.5,2.5), col=colors)
+#pdf("powerconsumption_datacentre_uulm.pdf", height = 4, width = 7)
+plot(df, type="n", xlim=c(0, max.x), ylim=c(0, max.y), xlab="Experiment time (s)", ylab="Power Consumption", cex.lab=1.75, cex.axis=1.75, cex.main=1.75, cex.sub=1.75)
+
+lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[2],cex=1.5)
+lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[1],cex=1.5)  
+legend(max.x - 12000, max.y, c("Predicted", "Measured"), lty=c(1,1), lwd=c(2.5,2.5), col=colors,cex=1.5)
 dev.off()
