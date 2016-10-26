@@ -289,7 +289,7 @@
         </referenceResourceSpecifications>
       </vmImageBehaviour>
     </composedVMImages>
-    <composedVMImages id="_on1otPAXEeW4H40OWqQumg" name="MasterNode" maximumServableRequests="10">
+    <composedVMImages id="_on1otPAXEeW4H40OWqQumg" name="MasterNode" maximumServableRequests="8">
       <providedRoles xsi:type="application:ServiceProvidedRole" id="_on2PwPAXEeW4H40OWqQumg" name="Provided_Master_HTTP" serviceInterface="_onMvgPAXEeW4H40OWqQumg"/>
       <requiredRoles xsi:type="application:ServiceRequiredRole" id="_on2PwfAXEeW4H40OWqQumg" name="Required_Master_Pgpool_SQL" serviceInterface="_onOksfAXEeW4H40OWqQumg"/>
       <requiredRoles xsi:type="application:ServiceRequiredRole" id="_on220PAXEeW4H40OWqQumg" name="Required_Master_Redis_GENERIC" serviceInterface="_onPLwPAXEeW4H40OWqQumg"/>
