@@ -15,7 +15,7 @@
     </nodes>
     <nodes xsi:type="core:ComputeNode" id="_7qbRkpF1Eeaw2NAHQwIpvg" name="computenode05" powerProvidingEntities="_7rm9UJF1Eeaw2NAHQwIpvg _7rm9UZF1Eeaw2NAHQwIpvg" powerConsumingEntities="_7qbRk5F1Eeaw2NAHQwIpvg _7qb4oJF1Eeaw2NAHQwIpvg _7qh_QpF1Eeaw2NAHQwIpvg" networkInterconnects="_7qbRkZF1Eeaw2NAHQwIpvg">
       <cpuSpecifications id="_7qbRk5F1Eeaw2NAHQwIpvg" name="computenode05" powerProvidingEntities="_7qbRkpF1Eeaw2NAHQwIpvg" frequency="3300.0MHz" numberOfCores="32">
-        <powerModelBinding href="uulm-testbed.pdcbinding#_bAuNcJVEEeaxGop97YsJzg"/>
+        <powerModelBinding href="uulm-testbed.pdcbinding#_n0evoJVLEea3csqiBVFYaQ05"/>
         <architectureType href="uulm-testbed.architecturetype#_7ouBYJF1Eeaw2NAHQwIpvg"/>
       </cpuSpecifications>
       <storageSpecifications id="_7qh_QpF1Eeaw2NAHQwIpvg" name="computenode05" powerProvidingEntities="_7qbRkpF1Eeaw2NAHQwIpvg" size="190.0GB" readDelay="0.004464285714285714s" writeDelay="0.01675041876046901s">
@@ -27,7 +27,7 @@
     </nodes>
     <nodes xsi:type="core:ComputeNode" id="_7qb4pZF1Eeaw2NAHQwIpvg" name="computenode08" powerProvidingEntities="_7rm9UJF1Eeaw2NAHQwIpvg _7rm9UZF1Eeaw2NAHQwIpvg" powerConsumingEntities="_7qb4ppF1Eeaw2NAHQwIpvg _7qb4qZF1Eeaw2NAHQwIpvg _7qimUpF1Eeaw2NAHQwIpvg" networkInterconnects="_7qb4pJF1Eeaw2NAHQwIpvg">
       <cpuSpecifications id="_7qb4ppF1Eeaw2NAHQwIpvg" name="computenode08" powerProvidingEntities="_7qb4pZF1Eeaw2NAHQwIpvg" frequency="3300.0MHz" numberOfCores="32">
-        <powerModelBinding href="uulm-testbed.pdcbinding#_bUeP4JVEEeaxGop97YsJzg"/>
+        <powerModelBinding href="uulm-testbed.pdcbinding#_n0evoJVLEea3csqiBVFYaQ08"/>
         <architectureType href="uulm-testbed.architecturetype#_7ouBYJF1Eeaw2NAHQwIpvg"/>
       </cpuSpecifications>
       <storageSpecifications id="_7qimUpF1Eeaw2NAHQwIpvg" name="computenode08" powerProvidingEntities="_7qb4pZF1Eeaw2NAHQwIpvg" size="0.0GB" readDelay="0.008547008547008548s" writeDelay="0.010245901639344263s">
@@ -52,7 +52,7 @@
     </nodes>
     <nodes xsi:type="core:ComputeNode" id="_7qcfupF1Eeaw2NAHQwIpvg" name="computenode12" powerProvidingEntities="_7ru5IJF1Eeaw2NAHQwIpvg _7ru5IZF1Eeaw2NAHQwIpvg" powerConsumingEntities="_7qcfu5F1Eeaw2NAHQwIpvg _7qdGwpF1Eeaw2NAHQwIpvg _7qimWJF1Eeaw2NAHQwIpvg" networkInterconnects="_7qcfuZF1Eeaw2NAHQwIpvg">
       <cpuSpecifications id="_7qcfu5F1Eeaw2NAHQwIpvg" name="computenode12" powerProvidingEntities="_7qcfupF1Eeaw2NAHQwIpvg" frequency="3300.0MHz" numberOfCores="32">
-        <powerModelBinding href="uulm-testbed.pdcbinding#_cDeq8JVEEeaxGop97YsJzg"/>
+        <powerModelBinding href="uulm-testbed.pdcbinding#_n0evoJVLEea3csqiBVFYaQ12"/>
         <architectureType href="uulm-testbed.architecturetype#_7ouBYJF1Eeaw2NAHQwIpvg"/>
       </cpuSpecifications>
       <storageSpecifications id="_7qimWJF1Eeaw2NAHQwIpvg" name="computenode12" powerProvidingEntities="_7qcfupF1Eeaw2NAHQwIpvg" size="866.0GB" readDelay="0.010245901639344263s" writeDelay="0.06993006993006992s">
@@ -64,7 +64,7 @@
     </nodes>
     <nodes xsi:type="core:ComputeNode" id="_7qdGx5F1Eeaw2NAHQwIpvg" name="computenode14" powerProvidingEntities="_7rxVYJF1Eeaw2NAHQwIpvg _7rxVYZF1Eeaw2NAHQwIpvg" powerConsumingEntities="_7qdGyJF1Eeaw2NAHQwIpvg _7qdGy5F1Eeaw2NAHQwIpvg _7qjNYZF1Eeaw2NAHQwIpvg" networkInterconnects="_7qdGxpF1Eeaw2NAHQwIpvg">
       <cpuSpecifications id="_7qdGyJF1Eeaw2NAHQwIpvg" name="computenode14" powerProvidingEntities="_7qdGx5F1Eeaw2NAHQwIpvg" frequency="3300.0MHz" numberOfCores="32">
-        <powerModelBinding href="uulm-testbed.pdcbinding#_cZSi4JVEEeaxGop97YsJzg"/>
+        <powerModelBinding href="uulm-testbed.pdcbinding#_n0evoJVLEea3csqiBVFYaQ14"/>
         <architectureType href="uulm-testbed.architecturetype#_7ouBYJF1Eeaw2NAHQwIpvg"/>
       </cpuSpecifications>
       <storageSpecifications id="_7qjNYZF1Eeaw2NAHQwIpvg" name="computenode14" powerProvidingEntities="_7qdGx5F1Eeaw2NAHQwIpvg" size="0.0GB" readDelay="0.008474576271186439s" writeDelay="0.010395010395010392s">

@@ -1,11 +1,11 @@
 #library(devEMF)
 baseDir <- "C:/Users/stier/git/prediction-demo-final/cactos-uulm-consolidation-1/"
 setwd(baseDir)
-measuredDir <- paste(baseDir, "results-measured-csv/", sep = "")
-measuredFilePattern <- "^(computenode)((0[^2])|(1[^6])).*(Power_Consumption_Tuple)"
+measuredDir <- paste(baseDir, "no-powermgmt-simulation-csv/", sep = "")
+measuredFilePattern <- "^(computenode).*(Power_Consumption_Tuple)"
 
-simulationDir <- paste(baseDir, "results-simulation-csv/", sep = "")
-simulationFilePattern <- "^(computenode)((0[^2])|(1[^6])).*(Power_Consumption_Tuple)"
+simulationDir <- paste(baseDir, "powermgmt-sim-csv/", sep = "")
+simulationFilePattern <- "^(computenode).*(Power_Consumption_Tuple)"
 
 windowSizeMeasured <- 20
 plotResolution <- 50
@@ -60,14 +60,16 @@ energy.meas <- (integrate(meas.func, 0.0, max.x, subdivisions = 10000))$value
 colors <- rainbow(2)
 
 #emf(file="powerconsumption_datacentre_os2-b.emf", height = 8, width = 12, family = "Calibri", pointsize = 20)
-png(filename = "powerconsumption_datacentre_uulm.png",
+png(filename = "powerconsumption_datacentre_uulm_powermgmt_comparison.png",
     width = 1280, height = 720, units = "px", pointsize = 12,
     bg = "white")
-par(mar=c(6,8,5,3))
-#pdf("powerconsumption_datacentre_uulm.pdf", height = 4, width = 7)
-plot(df, type="n", xlim=c(0, max.x), ylim=c(0, max.y), mgp = c(5, 3, 0), xlab="Experiment time (s)", ylab="Power Consumption", cex.lab=3, cex.axis=3, cex.main=3, cex.sub=3)
 
-lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=3, type="l", col=colors[2],cex=2)
-lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=3, type="l", col=colors[1],cex=2)  
-legend(max.x - 30000, 200, c("Predicted", "Measured"), lty=c(1,1), lwd=c(2.5,2.5), col=colors,cex=3)
+par(mar=c(5,7,4,2))
+
+#pdf("powerconsumption_datacentre_uulm_powermgmt2.pdf", height = 4, width = 7)
+plot(df, type="n", xlim=c(0, max.x), ylim=c(0, max.y), xlab="Experiment time (s)", ylab="Power Consumption", cex.lab=2, cex.axis=2, cex.main=2, cex.sub=2)
+
+lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=2.5, type="l", col=colors[2],cex=1.5)
+lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=2,5, type="l", col=colors[1],cex=1.5)  
+legend(max.x - 26000, 150, c("Predicted with Power Mgmt.", "Predicted without Power Mgmt."), lty=c(1,1), lwd=c(2.5,2.5), col=colors,cex=1.5)
 dev.off()

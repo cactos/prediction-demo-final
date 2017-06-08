@@ -4,7 +4,7 @@ setwd(baseDir)
 measuredDir <- paste(baseDir, "results-measured-csv/", sep = "")
 measuredFilePattern <- "^(computenode)((0[^2])|(1[^6])).*(Power_Consumption_Tuple)"
 
-simulationDir <- paste(baseDir, "respowermgmt-sim-csv/", sep = "")
+simulationDir <- paste(baseDir, "powermgmt-sim-csv/", sep = "")
 simulationFilePattern <- "^(computenode)((0[^2])|(1[^6])).*(Power_Consumption_Tuple)"
 
 windowSizeMeasured <- 20

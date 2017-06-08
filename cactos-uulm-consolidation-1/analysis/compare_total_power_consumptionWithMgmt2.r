@@ -64,10 +64,12 @@ png(filename = "powerconsumption_datacentre_uulm_powermgmt2.png",
     width = 1280, height = 720, units = "px", pointsize = 12,
     bg = "white")
 
-#pdf("powerconsumption_datacentre_uulm_powermgmt2.pdf", height = 4, width = 7)
-plot(df, type="n", xlim=c(0, max.x), ylim=c(0, max.y), xlab="Experiment time (s)", ylab="Power Consumption", cex.lab=1.75, cex.axis=1.75, cex.main=1.75, cex.sub=1.75)
+par(mar=c(5,7,4,2))
 
-lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[2],cex=1.5)
-lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=1.5, type="l", col=colors[1],cex=1.5)  
-legend(max.x - 12000, max.y, c("Predicted", "Measured"), lty=c(1,1), lwd=c(2.5,2.5), col=colors,cex=1.5)
+#pdf("powerconsumption_datacentre_uulm_powermgmt2.pdf", height = 4, width = 7)
+plot(df, type="n", xlim=c(0, max.x), ylim=c(0, max.y), xlab="Experiment time (s)", ylab="Power Consumption", cex.lab=2.0, cex.axis=2.0, cex.main=2.0, cex.sub=2.0)
+
+lines(y=sapply(seq(0, max.x, plotResolution), meas.func), x=seq(0, max.x, plotResolution), lwd=2.5, type="l", col=colors[2],cex=1.5)
+lines(y=sapply(seq(0, max.x, plotResolution), sim.func), x=seq(0, max.x, plotResolution), lwd=2.5, type="l", col=colors[1],cex=1.5)  
+legend(max.x - 13000, max.y, c("Predicted", "Measured"), lty=c(1,1), lwd=c(2.5,2.5), col=colors,cex=1.5)
 dev.off()
